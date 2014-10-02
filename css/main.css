@@ -87,14 +87,13 @@ body {
   padding: 2em;
   position: absolute;
   width: 90%;
-
   background-color: #000;
   border-radius: 6px;
-  opacity: 0;
+  opacity:0;
 }
 
 .sales__details[data-state="active"]{
-	opacity: 1;
+	opacity:1;
 }
 
 .sales__details::before {
