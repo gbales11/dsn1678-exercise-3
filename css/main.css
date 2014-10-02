@@ -81,7 +81,7 @@ body {
   font-size: 6rem;
 }
 
-.sales__details {
+.sales__details{
   left: 0;
   margin: 25px 5% 0;
   padding: 2em;
@@ -90,6 +90,10 @@ body {
 
   background-color: #000;
   border-radius: 6px;
+  opacity: 0;
+}
+
+.sales__details[data-state="active"]{
 }
 
 .sales__details::before {
